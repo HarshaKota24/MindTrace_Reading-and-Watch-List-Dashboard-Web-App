@@ -3,7 +3,11 @@
   "name": "Auto Content Tracker",
   "version": "1.0",
   "description": "Track and save meaningful content from browsing.",
-  "permissions": ["tabs", "scripting", "storage"],
+"permissions": [
+  "tabs",
+  "storage"
+]
+,
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
@@ -14,10 +18,11 @@
       "128": "icons/icon128.png"
     }
   },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
-    }
-  ]
+ "content_scripts": [
+  {
+   "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_start"
+  }
+]
 }
