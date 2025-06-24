@@ -17,10 +17,11 @@
     "url": "https://github.com/HarshaKota24/Summarize-and-share-online-activity/issues"
   },
   "homepage": "https://github.com/HarshaKota24/Summarize-and-share-online-activity#readme",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "node-fetch": "^3.3.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
