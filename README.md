@@ -22,8 +22,8 @@ MindTrace is a Chrome/Firefox browser extension that **automatically tracks what
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/mindtrace-extension.git
-cd mindtrace-extension
+git clone https://github.com/HarshaKota24/MindTrace_Reading-and-Watch-List-Dashboard-Web-App.git
+cd MindTrace_Reading-and-Watch-List-Dashboard-Web-App
 ```
 
 ### 2. Install local LLM backend via Ollama
